@@ -1,0 +1,75 @@
+# Default ignored files
+/shelf/
+/workspace.xml
+# Ignored default folder with query files
+/queries/
+# Datasource local storage ignored files
+/dataSources/
+/dataSources.local.xml
+# Editor-based HTTP Client requests
+/httpRequests/
+
+.env
+application-local.properties
+application-prod.properties
+**/application-*.properties
+
+# Maven build files
+target/
+!.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+# IntelliJ IDEA files
+.idea/
+*.iws
+*.iml
+*.ipr
+out/
+*.class
+
+# Eclipse files
+.classpath
+.project
+.settings/
+bin/
+
+# VS Code files
+.vscode/
+
+# MacOS files
+.DS_Store
+
+# Windows files
+Thumbs.db
+
+# Log files
+*.log
+logs/
+
+# Temporary files
+*.tmp
+*.temp
+*.swp
+*.swo
+*~
+
+# Database files (if using H2 for testing)
+*.db
+*.h2.db
+
+# Package files
+*.jar
+*.war
+*.nar
+*.ear
+*.zip
+*.tar.gz
+*.rar
+
+# JVM crash logs
+hs_err_pid*
+
+# Build tool files
+.gradle/
+build/

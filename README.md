@@ -134,16 +134,6 @@ DELETE /api/urls/{shortCode}          Delete URL
 GET    /shorty/{shortCode}            Redirect to original URL
 ```
 
-## Project Structure
-
-Pretty standard Spring Boot setup:
-- `controller` - handles HTTP requests
-- `service` - business logic (generating codes, validating stuff)
-- `repository` - talks to the database
-- `entity` - the Url table structure
-- `dto` - request/response objects
-- `exception` - error handling
-
 ## Some Design Choices
 
 **Why 6 characters for the short code?**
@@ -171,9 +161,6 @@ Don't want users sending `"clickCount": 9999` and faking their stats. DTOs let m
 - Rate limiting
 - Bulk upload via CSV
 
-## Notes
-
-This was my first proper Spring Boot project. There's probably stuff I could do better, but it works and I learned a ton building it. Feel free to use it or suggest improvements.
 
 ---
 
